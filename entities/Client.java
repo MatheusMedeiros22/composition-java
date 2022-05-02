@@ -8,9 +8,8 @@ public class Client {
 	private Date birthDate;
 	
 	public Client(){
-		
 	}
-
+	
 	public Client(String name, String email, Date birthDate) {
 		this.name = name;
 		this.email = email;

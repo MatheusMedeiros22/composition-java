@@ -9,15 +9,12 @@ public class Order {
 	private Date moment;
 	private OrderStatus status;
 	
+	private Client client;
+	private OrderItem orderItem;
+	
 	public Order() {
-		
 	}
 
-	public Order(Date moment, OrderStatus status) {
-		this.moment = moment;
-		this.status = status;
-	}
-	
 	
 	
 }
